@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="Description" content="Enter your description here" />
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <title>Kushal Medicals</title>
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/757f301873.js" crossorigin="anonymous"></script>
+  <!-- Favicon -->
+  <link rel="icon" type="img/png" href="KUSHAL.png">
+  <!-- CSS import -->
+  <style>
+    @import url(shop.css);
+  </style>
+  <script src="script.js"></script>
+</head>
+
+<body>
+  <!-- IMAGE -->
+  <div class="container-fluid" style="background-color: #5ce1e6;">
+    <img src="KUSHAL (1).png" width="337px" class="img-responsive" style="margin: auto;">
+  </div>
+  <!-- NAVBAR -->
+  <header class="header-wrapper">
+
+    <nav class="navbar navbar-expand-md sticky-top"
+      style="background-color: #5ce1e6; border: 0; color: white; align-content: center; margin: 0; padding: 0; ">
+      <!--navbar-fixed-top or bottom is used to alignment to the right and left of the nvigation bar-->
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav1">
+        <!--nav1 data target will belong to its respective id-->
+        <i class="glyphicon glyphicon-align-justify"></i>
+      </button>
+      <div class="container-fluid">
+        <div class="collapse navbar-collapse" id="nav1">
+          <ul class="nav navbar-nav" style="width: 100%;">
+            <li class="nav-link "><a href="#" id="home"  
+                style="color: white; font-weight: bold; font-size: large; margin-inline: 37px;">Home</a></li>
+            <li class="nav-link"><a href="#reviews" id="services"
+                style="color: white; font-weight: bold; font-size: large; margin-inline: 37px;">Services</a></li>
+            <li class="nav-link"><a href="#cards" id="team"
+                style="color: white; font-weight: bold; font-size: large; margin-inline: 37px;">Team</a></li>
+            <li class="nav-link"><a href="#reviews" id="gallary"
+                style="color: white; font-weight: bold; font-size: large; margin-inline: 37px;">Gallary</a></li>
+            <li class="nav-link"><a href="#cards" id="testimonials"
+                style="color: white; font-weight: bold; font-size: large; margin-inline: 37px;">Testimonial</a></li>
+            <li class="nav-link"><a href="#reviews" id="blog"
+                style="color: white; font-weight: bold; font-size: large; margin-inline: 37px;">Blog</a></li>
+            <li class="nav-link"><a href="#footer" id="contact"
+                style="color: white; font-weight: bold; font-size: large; margin-inline: 37px;">Contact</a></li>
+          </ul>
+        </div>
+
+      </div>
+    </nav>
+  </header>
+
+  <!-- CAROUSEL -->
+  <header class="header-wrapper">
+    <!-- <div class="container-fluid container-photo" style="margin: 0; padding: 0; margin-top: 0; position: relative">
+        <img src="pexels-cottonbro-8667529.jpg" alt="Snow" style="width:100%;">
+        <div class="center-text">
+          <h3 style="color: whitesmoke; text-align: center; font-style: italic;"><b>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>
+             At quos quia eaque blanditiis non ips!</b></h3>
+             <a type="link" href="#" class="btn btn-success btn-img mx-auto">Explore more</a>
+        </div>
+        
+      </div> -->
+    <div id="carousel" class="carousel slide" data-ride="carousel" >
+
+      <!-- Carousel Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel" data-slide-to="1" class=""></li>
+        <li data-target="#carousel" data-slide-to="2" class=""></li>
+        <li data-target="#carousel" data-slide-to="3" class=""></li>
+      </ol>
+
+      <!-- Wrapper for Slides -->
+      <div class="carousel-inner" role="listbox">
+
+        <div class="item">
+          <img src="pexels-cottonbro-8667529.jpg" width="">
+          <div class="carousel-caption">
+            <h3>Car 1</h3>
+            <p>Description 1</p>
+          </div>
+        </div>
+
+        <div class="item">
+          <img src="pexels-cottonbro-8667529.jpg" width="">
+          <div class="carousel-caption">
+            <h3>Car 2</h3>
+            <p>Description 2</p>
+          </div>
+        </div>
+
+        <div class="item">
+          <img src="pexels-cottonbro-8667529.jpg" width="">
+          <div class="carousel-caption">
+            <h3>Car 3</h3>
+            <p>Description 3</p>
+          </div>
+        </div>
+
+        <div class="item active">
+          <img src="pexels-cottonbro-8667529.jpg" width="">
+          <div class="carousel-caption">
+            <h3>Car 4</h3>
+            <p>Description 4</p>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Left and Right Control Links -->
+      <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      </a>
+      <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      </a>
+    </div>
+
+  </header>
+  <!-- REVIEWS -->
+  <header class="header-wrapper">
+    <div class="container-fluid" id="reviews">
+      <div class="row">
+        <div class="col-md-9" style="margin-top: 240px; ">
+          <h2
+            style="color: gray; font-style: oblique;  align-items: center; width: 600px; margin-left: auto; margin-right: auto;">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit excepturi sequi corrupti enim ducimus maiores
+            eum modi aspernatur molestiae. Asperiores repellendus ab temporibus. Corporis quisquam modi veritatis quia
+            officiis voluptatibus.</h2>
+        </div>
+        <div class="col-md-3">
+          <img
+            src="https://res.cloudinary.com/jackywinter/image/upload/w_1000,h_1500,q_85,cs_srgb,c_limit,f_auto/v1616716183/jackywinter.com/benja-harney/folio/aqwx60ftf1jbzz53ldm3.jpg"
+            class=" img-circle img-responsive" id="service-img-1">
+        </div>
+      </div>
+
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-3">
+            <img
+              src="https://res.cloudinary.com/jackywinter/image/upload/w_1000,h_1500,q_85,cs_srgb,c_limit,f_auto/v1616716486/jackywinter.com/benja-harney/folio/arxqszta1qbcgyawwmpj.jpg"
+              class=" img-circle img-responsive" id="service-img-2">
+          </div>
+          <div class="col-md-9" style="margin-top: 200px;">
+            <h2
+              style="color: purple; font-style: oblique;  align-items: center; width: 600px; margin-left: auto; margin-right: auto;">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit excepturi sequi corrupti enim ducimus maiores
+              eum modi aspernatur molestiae. Asperiores repellendus ab temporibus. Corporis quisquam modi veritatis quia
+              officiis voluptatibus.</h2>
+          </div>
+
+        </div>
+      </div>
+
+
+    </div>
+
+  </header>
+
+  <!-- CARDS -->
+  <header class="header-wrapper">
+    <div class="container-fluid reveal" id="cards"
+      style="background-color: #5ce1e6; margin-top: 100px; border-top-left-radius:40px; border-top-right-radius:40px; color: white;">
+      <h1 class="text-center" style="font-family: 'Lobster', cursive; font-weight: bold; letter-spacing: 3px;">
+        Testimonial</h1>
+      <div class="row" style="color: white;">
+        <div class="col-md-4">
+          <div class="card" style=" border: 3px solid white; margin:20px">
+            <img
+              src="https://res.cloudinary.com/jackywinter/image/upload/w_400,h_600,q_85,cs_srgb,c_limit,f_auto/v1616551081/jackywinter.com/clemens-habicht/folio/dsbhred9cwywtklykhf8"
+              alt="Img" class="card-img-top" id="card-img-1">
+            <div class="card-body">
+              <h4 class="card-title text-center">Title</h4>
+              <p class="card-text text-center">Text</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card" style=" border: 3px solid white; margin:20px;">
+            <img
+              src="https://res.cloudinary.com/jackywinter/image/upload/w_400,h_600,q_85,cs_srgb,c_limit,f_auto/v1616551081/jackywinter.com/clemens-habicht/folio/dsbhred9cwywtklykhf8"
+              alt="Img" class="card-img-top" id="card-img-2">
+            <div class="card-body">
+              <h4 class="card-title text-center">Title</h4>
+              <p class="card-text text-center">Text</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card" style="border: 3px solid white; margin:20px">
+            <img
+              src="https://res.cloudinary.com/jackywinter/image/upload/w_400,h_600,q_85,cs_srgb,c_limit,f_auto/v1616551081/jackywinter.com/clemens-habicht/folio/dsbhred9cwywtklykhf8"
+              alt="Img" class="card-img-top" id="card-img-3">
+            <div class="card-body">
+              <h4 class="card-title text-center">Title</h4>
+              <p class="card-text text-center">Text</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </header>
+  <br>
+  <!-- COMPANIES -->
+  <header class="header-wrapper">
+    <div class="container-fluid reveal" id="companies"
+      style="margin-top: 20px; background-color: #969696;  margin: 0; padding: 0; color: black; height: 700px;">
+      <h1 class="text-center company" style="font-family: 'Lobster', cursive; font-weight: bold; letter-spacing: 3px;">
+        Companies</h1>
+      <div class="row" style="margin-top: 60px;">
+        <div class="col-md-2">
+          <img class="img-responsive" alt="logos"
+            src="https://seeklogo.com/images/V/volkswagen-logo-9069384A73-seeklogo.com.png"
+            style="width: 100px; margin-inline:20px;">
+        </div>
+        <div class="col-md-2" style="margin-top: 35px;">
+          <img class="img-responsive" alt="logos"
+            src="https://seeklogo.com/images/F/ford-logo-CA98E97A2B-seeklogo.com.png"
+            style="width: 100px; margin-inline:20px; ">
+        </div>
+        <div class="col-md-2" style="margin-top: 35px;">
+          <img class="img-responsive" alt="logos"
+            src="https://seeklogo.com/images/C/CHEVROLET-logo-ADC8061C89-seeklogo.com.png"
+            style="width: 100px; margin-inline:20px;">
+        </div>
+        <div class="col-md-2" style="margin-top: 35px;">
+          <img class="img-responsive" alt="logos"
+            src="https://seeklogo.com/images/H/Hyundai-logo-C41591E6EF-seeklogo.com.png"
+            style="width: 100px; margin-inline:20px;">
+        </div>
+        <div class="col-md-2">
+          <img class="img-responsive" alt="logos"
+            src="https://seeklogo.com/images/P/porsche-logo-5995000C95-seeklogo.com.png"
+            style="width: 100px; margin-inline:20px;">
+        </div>
+        <div class="col-md-2">
+          <img class="img-responsive" alt="logos"
+            src="https://seeklogo.com/images/V/volkswagen-logo-9069384A73-seeklogo.com.png"
+            style="width: 100px; margin-inline:20px;">
+        </div>
+      </div>
+
+      <div class="row" style="margin-top: 50px;">
+        <div class="col-md-2">
+          <img class="img-responsive" alt="logos"
+            src="https://seeklogo.com/images/T/toyota-logo-239F6C9C1A-seeklogo.com.png"
+            style="width: 100px; margin-inline:20px;">
+        </div>
+        <div class="col-md-2">
+          <img class="img-responsive" alt="logos"
+            src="https://seeklogo.com/images/F/ferrari-logo-7935CF173C-seeklogo.com.png"
+            style="width: 100px; margin-inline:20px; ">
+        </div>
+        <div class="col-md-2">
+          <img class="img-responsive" alt="logos"
+            src="https://seeklogo.com/images/B/bmw-logo-A677AA8342-seeklogo.com.png"
+            style="width: 100px; margin-inline:20px;">
+        </div>
+        <div class="col-md-2" style="margin-top: 35px;">
+          <img class="img-responsive" alt="logos"
+            src="https://seeklogo.com/images/T/Toyota-logo-16FFC40754-seeklogo.com.png"
+            style="width: 100px; margin-inline:20px;">
+        </div>
+        <div class="col-md-2" style="margin-top: 35px;">
+          <img class="img-responsive" alt="logos"
+            src="https://seeklogo.com/images/H/Hyundai-logo-C41591E6EF-seeklogo.com.png"
+            style="width: 100px; margin-inline:20px;">
+        </div>
+        <div class="col-md-2" style="margin-top: 20px;">
+          <img class="img-responsive" alt="logos"
+            src="https://seeklogo.com/images/P/peugeot-logo-C7806C6E1C-seeklogo.com.png"
+            style="width: 100px; margin-inline:20px;">
+        </div>
+      </div>
+
+      <div class="row" style="margin-top: 50px;">
+        <div class="col-md-2">
+          <img class="img-responsive img-circle alt=" logos"
+            src="https://image.shutterstock.com/image-vector/vintage-racing-car-tshirt-graphics-600w-1426680953.jpg"
+            style="width: 100px; margin-inline:20px;">
+        </div>
+        <div class="col-md-2" style="margin-top: 35px;">
+          <img class="img-responsive" alt="logos"
+            src="https://seeklogo.com/images/J/Jaguar-logo-ED7E01A4A1-seeklogo.com.png"
+            style="width: 100px; margin-inline:20px; ">
+        </div>
+        <div class="col-md-2">
+          <img class="img-responsive" alt="logos"
+            src="https://seeklogo.com/images/H/harley-davidson-logo-6AC289BE28-seeklogo.com.png"
+            style="width: 100px; margin-inline:20px;">
+        </div>
+        <div class="col-md-2" style="margin-top: 35px;">
+          <img class="img-responsive" alt="logos"
+            src="https://seeklogo.com/images/T/The_Coca-Cola_Company-logo-858801036A-seeklogo.com.png"
+            style="width: 100px; margin-inline:20px;">
+        </div>
+        <div class="col-md-2">
+          <img class="img-responsive" alt="logos"
+            src="https://seeklogo.com/images/I/independent-truck-company-logo-AC15DB3787-seeklogo.com.png"
+            style="width: 100px; margin-inline:20px;">
+        </div>
+        <div class="col-md-2">
+          <img class="img-responsive" alt="logos"
+            src="https://seeklogo.com/images/V/volkswagen-logo-9069384A73-seeklogo.com.png"
+            style="width: 100px; margin-inline:20px;">
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container-fluid" style="background-color: #3c341f; margin: 0;  padding: 0; color: #5ce1e6;" id="footer">
+      <h1 class="text-center">Kushal Medical Hall</h1>
+      <div class="row" style="margin-top: 50px;">
+        <div class="col-md-2">
+          <div class="container-fluid" style="display: flex; flex-direction: column;">
+            <h3 style="font-weight: bold; font-size: large; align-items: center; justify-content: center;">Customer Care
+            </h3>
+            <p class="flex-item">Need-help?</p>
+            <p class="flex-item">Need-help?</p>
+            <p class="flex-item">Need-help?</p>
+            <p class="flex-item">Need-help?</p>
+            <p class="flex-item">Need-help?</p>
+            <p class="flex-item">Need-help?</p>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <div class="container-fluid" style="display: flex; flex-direction: column;">
+            <h3 style="font-weight: bold; font-size: large; align-items: center; justify-content: center;">Customer Care
+            </h3>
+            <p class="flex-item">Need-help?</p>
+            <p class="flex-item">Need-help?</p>
+            <p class="flex-item">Need-help?</p>
+            <p class="flex-item">Need-help?</p>
+            <p class="flex-item">Need-help?</p>
+            <p class="flex-item">Need-help?</p>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <div class="container-fluid" style="display: flex; flex-direction: column;">
+            <h3 style="font-weight: bold; font-size: large; align-items: center; justify-content: center;">Customer Care
+            </h3>
+            <p class="flex-item">Need-help?</p>
+            <p class="flex-item">Need-help?</p>
+            <p class="flex-item">Need-help?</p>
+            <p class="flex-item">Need-help?</p>
+            <p class="flex-item">Need-help?</p>
+            <p class="flex-item">Need-help?</p>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="row">
+            <div class="col-md">
+              <h3 style="font-weight: bold; font-size: large;">Customer Care</h3>
+            </div>
+            <div class="w-100"></div>
+            <div class="col-md">
+              <span class="fa-brands fa-facebook fa-3x"></span>
+              <span class="fa-brands fa-twitter fa-3x"></span>
+              <span class="fa-brands fa-youtube fa-3x"></span>
+              <span class="fa-brands fa-pinterest fa-3x"></span>
+              <span class="fa-brands fa-snapchat fa-3x"></span>
+            </div>
+      
+            <div class="w-100"></div>
+            <div class="col-md">
+              <h3 style="font-weight: bold; font-size: large;">Payment method</h3>
+            </div>
+            <div class="w-100"></div>
+            <div class="col-md">
+              <span class="fa-solid fa-credit-card fa-3x"></span>
+              <span class="fa-solid fa-credit-card-front fa-3x"></span>
+              <span class="fa-brands fa-twitter fa-3x"></span>
+              <span class="fa-brands fa-dashcube fa-3x"></span>
+              <span class="fa-brands fa-snapchat fa-3x"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      </div>
+  </footer>
+</body>
+
+</html>
