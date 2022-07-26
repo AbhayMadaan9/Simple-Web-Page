@@ -3,10 +3,6 @@
 
 
 
-
-
-
-
 window.addEventListener('scroll', function () {
     var value = window.scrollY;
     document.getElementById('stars').style.left = value * 0.25 + "px";
